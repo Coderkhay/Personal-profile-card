@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile Card</title>
+    <link rel="stylesheet" href="Profile-card.css" />
+  </head>
+  <body>
+    <section data-testid="container">
+      <video data-testid="bg-video" autoplay loop muted>
+        <source src="video.mp4" />
+      </video>
+
+      <div data-testid="Profile-card">
+        <div data-testid="ProfilePicture">
+          <img src="img/WhatsApp Image 2025-02-01 at 17.41.42_a28e2c1a.jpg" />
+        </div>
+        <div data-testid="Info">
+          <h3 data-testid="fullName">Olanrewaju Omotolani Kamaldeen</h3>
+
+          <h4 data-testid="jobTitle">Frontend Developer</h4>
+
+          <p data-testid="shortBio">
+            <i>
+              I was introduced to coding by a close friend of mine about quater
+              a decade ago and since then i have been trying to up my skill. In
+              all honesty it hasn't been very easy mainly because i am a self
+              taught developer, but one thing i can say confidently is 'it has
+              been fun'. Currently about to start React.js a javascript
+              framework and i'm so psyched about it.
+            </i>
+          </p>
+
+          <p data-testid="emailAddress">
+            <i> Email: Kamaldeenomotolani@gmail.com</i>
+          </p>
+
+          <p data-testid="socialLinks">
+            <a href="https://github.com/Coderkhay">
+              <img id="github" src="img/image.png" width="35px" />
+            </a>
+            <a href="https://x.com/coderkhay?t=bBaisB9gDw-Ex544dUyppw&s=09">
+              <img id="twitter" src="img/x-image.png" width="32px" />
+            </a>
+          </p>
+
+          <div data-testid="currentTimeUTC" id="currentTime"></div>
+        </div>
+      </div>
+    </section>
+    <script src="Profile-card.js"></script>
+  </body>
+</html>
